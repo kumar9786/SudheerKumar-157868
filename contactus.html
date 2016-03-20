@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<body style="background:#80BFFF">
+<span style="color:#FF0000">        
+<h1>Contact Us</h1>
+<p>please enter below details for support team to contact you</p>
+
+<form id="sudheer1">
+  First name:<br>
+  <input type="text" name="enter your firstname"><br><br>
+  Last name:<br>
+  <input type="text" name="enter your lastname"><br><br>
+  Email Address:<br>
+  <input type="text" name="enter your email address"><br><br>
+	
+  Message:<br>
+	<textarea name="message" rows="10" cols="30">Describe few Lines about your issue</textarea>
+	<br><br>
+
+</form>
+
+<div class="row">
+   <button type="button" onclick="submit()">Submit</button>
+</div>
+
+
+<script>
+//window.alert(we recieved your email address, Our support team will reachout to you shotly);
+        function submit() 
+		{
+            
+			alert("!! Successfull!! -- we recieved your email address, Our support team will reachout to you shotly");
+			document.getElementById("sudheer1").reset();
+        }
+</script>
+
+</body>
+</html> 
